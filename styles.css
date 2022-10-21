@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;    
+  font-family: 'Prompt', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* LANDING */
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/l.jpeg);
+  background-repeat: no-repeat;
+}
+
+.landing-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding: 144px 0;
+  text-align: center;
+}
+
+.landing-title {
+  font-size: 44px;
+}
+
+/* NAV */
+
+.nav-bar {
+  width: 100%;
+  max-width: 1080px;
+  margin: 32px 150px 0 150px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #3f2918;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.nav-logo-img {
+  height: 100px;
+}
+
+
